@@ -1,0 +1,35 @@
+.filmesContainer {
+  height: 20.625rem;
+  width: 38.75rem;
+  margin: 0 auto;
+  display: flex;
+
+
+  img {
+    height: 15.25rem;
+    width: 10.6875rem;
+    object-fit: cover;
+  }
+}
+
+
+.legendButton {
+  font-size: 14px;
+  width: 23.8125rem;
+  height: 2.625rem;
+  color: var(--subtitle);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+  margin-left: 2.125rem;
+}
+
+.wrapper p {
+  color: var(--subtitle)
+}
+
+h2 {
+  color: var(--title)
+}

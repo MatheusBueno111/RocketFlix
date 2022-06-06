@@ -1,0 +1,30 @@
+/*=============Reset =============*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: var(--background);
+  background-repeat: no-repeat;
+}
+
+button{
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+

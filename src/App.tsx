@@ -5,6 +5,7 @@ import { api, API_KEY, IMG_URL } from "./services/api";
 import styles from './styles/app.module.scss';
 import './styles/global.scss';
 
+
 interface Filme {
   id: number;
   poster_path: string;
